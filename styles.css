@@ -136,6 +136,10 @@ ol, ul {
   background-color: var(--brandaccent);
 }
 
+.trippilot-page .nav-link::after {
+  background-color: var(--casestudytrippilot); /* TripPilot Blue */
+}
+
 .aura-finance-page .nav-link::after {
   background-color: var(--casestudyaura); /* Aura Green */
 }
@@ -155,6 +159,10 @@ ol, ul {
 
 .nav-link:hover {
   color: var(--brandaccent);
+}
+
+.trippilot-page .nav-link:hover {
+  color: var(--casestudytrippilot); /* TripPilot Blue */
 }
 
 .aura-finance-page .nav-link:hover {
@@ -209,6 +217,10 @@ ol, ul {
   margin-top: 20px;
   position: relative;
   z-index: 1;
+}
+
+.trippilot-page .main-content {
+  background-color: #EBF1FC; /* Light blue background for TripPilot case study */
 }
 
 .aura-finance-page .main-content {
@@ -670,6 +682,10 @@ ol, ul {
   cursor: pointer;
 }
 
+.trippilot-page .btn-filled {
+  background-color: var(--casestudytrippilot); /* TripPilot Blue */
+}
+
 .aura-finance-page .btn-filled {
   background-color: var(--casestudyaura); /* Aura Green */
 }
@@ -694,6 +710,10 @@ ol, ul {
   background-color: #0A8445; /* Darker Aura Green on hover */
 }
 
+.trippilot-page .btn-filled:hover {
+  background-color: #0052cc; /* Darker TripPilot Blue on hover */
+}
+
 .qr-track-page .btn-filled:hover {
   background-color: #003772; /* Darker QR Track Blue on hover */
 }
@@ -714,6 +734,11 @@ ol, ul {
   white-space: nowrap;
   transition: background-color 0.2s ease, color 0.2s ease;
   cursor: pointer;
+}
+
+.trippilot-page .btn-outline-sm {
+  border-color: var(--casestudytrippilot);
+  color: var(--casestudytrippilot);
 }
 
 .aura-finance-page .btn-outline-sm {
@@ -738,6 +763,11 @@ ol, ul {
 
 .busybee-page .btn-outline-sm:hover {
   background-color: var(--casestudybusybee);
+  color: var(--neutralmain-bg);
+}
+
+.trippilot-page .btn-outline-sm:hover {
+  background-color: var(--casestudytrippilot);
   color: var(--neutralmain-bg);
 }
 
@@ -784,6 +814,10 @@ ol, ul {
 
 .social-row a:hover {
   color: var(--brandaccent);
+}
+
+.trippilot-page .social-row a:hover {
+  color: var(--casestudytrippilot);
 }
 
 .aura-finance-page .social-row a:hover {
@@ -897,6 +931,10 @@ ol, ul {
   background-color: #0A8445; /* Darker Aura Green on hover */
 }
 
+.trippilot-page .fab-back-to-top:hover {
+  background-color: #0052cc; /* Darker TripPilot Blue on hover */
+}
+
 .qr-track-page .fab-back-to-top:hover {
   background-color: #003772; /* Darker QR Track Blue on hover */
 }
@@ -972,6 +1010,10 @@ ol, ul {
   color: var(--casestudyaura);
 }
 
+.trippilot-page .sub-nav-title {
+  color: var(--casestudytrippilot);
+}
+
 .qr-track-page .sub-nav-title {
   color: var(--casestudyqr-track);
 }
@@ -1011,7 +1053,13 @@ ol, ul {
   color: var(--casestudybusybee); /* Busy Bee Brown */
 }
 
+.trippilot-page .sub-nav-links a:hover {
+  color: var(--casestudytrippilot); /* TripPilot Blue */
+}
+
 .af-accent { color: #106a29; }
+
+.trippilot-page .af-accent { color: var(--casestudytrippilot); }
 
 .qr-track-page .af-accent { color: var(--casestudyqr-track); }
 
@@ -1068,6 +1116,10 @@ ol, ul {
   color: var(--casestudybusybee);
 }
 
+.trippilot-page .af-title {
+  color: var(--casestudytrippilot);
+}
+
 .af-desc {
   font-family: var(--body-large-font-family);
   font-size: var(--body-large-font-size);
@@ -1087,6 +1139,10 @@ ol, ul {
   border: 2px solid var(--neutral-70);
   flex-shrink: 0;
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+}
+
+.trippilot-page .af-photo-badge {
+  left: 289.5px;
 }
 
 .qr-track-page .af-photo-badge {
@@ -1111,6 +1167,15 @@ ol, ul {
   position: absolute;
   top: -100%;
   object-fit: cover;
+}
+
+.trippilot-page .af-photo-badge img {
+  top: -100%;
+  width: 100%;
+  height: 300%;
+  object-fit: contain;
+  object-position: center;
+  transform: scale(1.2);
 }
 
 .qr-track-page .af-photo-badge img {
@@ -1154,6 +1219,11 @@ ol, ul {
   color: var(--casestudybusybee);
 }
 
+.trippilot-page .cta-btn-green {
+  border-color: var(--casestudytrippilot);
+  color: var(--casestudytrippilot);
+}
+
 .cta-btn-green:hover {
   background-color: #106a29;
   color: white;
@@ -1166,6 +1236,11 @@ ol, ul {
 
 .busybee-page .cta-btn-green:hover {
   background-color: var(--casestudybusybee);
+  color: white;
+}
+
+.trippilot-page .cta-btn-green:hover {
+  background-color: var(--casestudytrippilot);
   color: white;
 }
 
@@ -1215,6 +1290,10 @@ ol, ul {
   color: var(--casestudybusybee);
 }
 
+.trippilot-page .af-xw-letter {
+  color: var(--casestudytrippilot);
+}
+
 .af-xw-letter {
   opacity: 0;
   transform: scale(0.3);
@@ -1256,6 +1335,10 @@ ol, ul {
 
 .busybee-page .visual-interface-panel {
   background-color: #AB9D77;
+}
+
+.trippilot-page .visual-interface-panel {
+  background-color: #76A2FF;
 }
 
 .vi-header {
@@ -1407,6 +1490,12 @@ ol, ul {
   gap: 56px;
 }
 
+.ps-grid-center {
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+}
+
 .ps-col {
   display: flex;
   flex-direction: column;
@@ -1438,6 +1527,10 @@ ol, ul {
 
 .busybee-page .ps-col-title {
   color: var(--casestudybusybee);
+}
+
+.trippilot-page .ps-col-title {
+  color: var(--casestudytrippilot);
 }
 
 .ps-col-text {
@@ -1521,6 +1614,10 @@ ol, ul {
   color: var(--casestudybusybee);
 }
 
+.trippilot-page .process-step-title {
+  color: var(--casestudytrippilot);
+}
+
 .process-tags {
   display: flex;
   gap: 8px;
@@ -1601,6 +1698,10 @@ ol, ul {
   border-bottom: 1px solid var(--casestudybusybee);
 }
 
+.trippilot-page .af-subsection {
+  border-bottom: 1px solid var(--casestudytrippilot);
+}
+
 .af-subsection:last-child {
   border-bottom: none;
   padding-bottom: 0;
@@ -1632,6 +1733,10 @@ ol, ul {
 
 .busybee-page .af-subsection-name {
   color: var(--casestudybusybee);
+}
+
+.trippilot-page .af-subsection-name {
+  color: var(--casestudytrippilot);
 }
 
 .af-subsection-desc {
@@ -1707,6 +1812,11 @@ ol, ul {
   height: 721px;
   object-fit: cover;
   display: block;
+}
+
+.trippilot-page .af-flow-image-card img {
+  height: 865px;
+  object-fit: contain;
 }
 
 /* Wireframe Panel */
@@ -1808,7 +1918,8 @@ ol, ul {
   justify-content: center;
 }
 
-.midfi-phone {
+.midfi-phone,
+.midfi-phone-long {
   width: 166px;
   height: 361px;
   border-radius: 9px;
@@ -1821,6 +1932,14 @@ ol, ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
+}
+
+.midfi-phone-long img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
   display: block;
 }
 
@@ -1957,7 +2076,8 @@ ul strong { font-weight: 600; }
   display: block;
 }
 
-.busybee-page .typography-image-card img {
+.busybee-page .typography-image-card img,
+.trippilot-page .typography-image-card img{
   object-fit: contain;
 }
 
@@ -1980,6 +2100,11 @@ ul strong { font-weight: 600; }
   width: 100%;
   height: 493px;
   box-sizing: border-box;
+}
+
+.trippilot-page .logo-dark-card {
+  background-color: #F9FAFB;
+  height: 100%;
 }
 
 .busybee-page .logo-dark-card {
@@ -2035,6 +2160,10 @@ ul strong { font-weight: 600; }
   box-sizing: border-box;
 }
 
+.trippilot-page .logo-final-badge {
+  background-color: #F9FAFB;
+}
+
 .busybee-page .logo-final-badge {
   background-color: #FDFCFB;
 }
@@ -2061,7 +2190,8 @@ ul strong { font-weight: 600; }
   max-width: 394px;
 }
 
-.busybee-page .logo-final-caption {
+.busybee-page .logo-final-caption,
+.trippilot-page .logo-final-caption {
   color: var(--neutral-40);
 }
 
@@ -2129,9 +2259,76 @@ font-style: var(--body-large-semibold-font-style);
   display: block;
 }
 
+.testimonials {
+ display: flex;
+ flex-direction: column;
+ gap: 56px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quote {
+  font-family: var(--h2-font-family);
+  font-weight: var(--h2-font-weight);
+  font-style: var(--h2-font-style);
+  font-size: var(--h2-font-size);
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  color: var(--neutral-10);
+  margin: 0;
+}
+
+    /* Client */
+.client {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.client-avatar {
+  width: 80px;
+  height: 80px;
+  border: 1px solid var(--neutral-40);
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.client-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-name {
+  font-family: var(--body-large-semibold-font-family);
+  font-weight: var(--body-large-semibold-font-weight);
+  font-size: var(--body-large-semibold-font-size);
+  line-height: var(--body-large-semibold-line-height);
+  letter-spacing: var(--body-large-semibold-letter-spacing);
+  font-style: var(--body-large-semibold-font-style);
+  color: var(--neutral-30);
+  margin: 0;
+}
+
+.client-role {
+  font-family: var(--body-main-font-family);
+  font-size: var(--body-main-font-size);
+  font-weight: var(--body-main-font-weight);
+  line-height: var(--body-main-line-height);
+  letter-spacing: var(--body-main-letter-spacing);
+  font-style: var(--body-main-font-style);
+  color: var(--neutral-40);
+  margin: 0;
+}
+
 /* Reflection & Final Thoughts */
 
-.reflection-section {
+.reflection-section,
+.validation-section {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -2171,6 +2368,11 @@ font-style: var(--body-large-semibold-font-style);
 .busybee-page .rc-valid {width: 50%; min-height: 384px;}
 .busybee-page .rc-proud {width: 50%; min-height: 384px;}  
 
+.trippilot-page .rc-quote {width: 50%; min-height: 448px;}
+.trippilot-page .rc-learn {width: 50%; min-height: 448px;}
+.trippilot-page .rc-valid {width: 50%; min-height: 288px;}
+.trippilot-page .rc-proud {width: 50%; min-height: 288px;}
+
 .reflection-quote {
   font-family: var(--h2-font-family);
   font-weight: 700;
@@ -2196,6 +2398,10 @@ font-style: var(--body-large-semibold-font-style);
 
 .busybee-page .reflection-cell-title {
   color: var(--casestudybusybee);
+}
+
+.trippilot-page .reflection-cell-title {
+  color: var(--casestudytrippilot);
 }
 
 .reflection-cell-text {
@@ -2233,6 +2439,10 @@ font-style: var(--body-large-semibold-font-style);
 }
 
 .busybee-page .next-case-study-banner {
+  background-color: #8FB3FF;
+}
+
+.trippilot-page .next-case-study-banner {
   background-color: #96BC9F;
 }
 
@@ -2300,7 +2510,8 @@ font-style: var(--body-large-semibold-font-style);
   flex-shrink: 0;
 }
 
-.busybee-page .next-cs-image {
+.busybee-page .next-cs-image,
+.trippilot-page .next-cs-image {
   width: 102px;
   height: 206px;
 }
@@ -2935,7 +3146,8 @@ font-style: var(--body-large-semibold-font-style);
 
   .af-photo-badge,
   .qr-track-page .af-photo-badge,
-  .busybee-page .af-photo-badge {
+  .busybee-page .af-photo-badge,
+  .trippilot-page .af-photo-badge {
     position: relative;
     left: 0;
     top: 0;
@@ -2978,7 +3190,10 @@ font-style: var(--body-large-semibold-font-style);
     margin-top: 12px;
   }
 
-  .aura-finance-page .hint {
+  .aura-finance-page .hint,
+  .qr-track-page .hint,
+  .busybee-page .hint,
+  .trippilot-page .hint {
     margin-top: -80px;
   }
 
@@ -3261,7 +3476,8 @@ font-style: var(--body-large-semibold-font-style);
   .sketch-card-desktop img,
   .sketch-card-small img,
   .qr-track-page .sketch-card img,
-  .busybee-page .sketch-card img {
+  .busybee-page .sketch-card img,
+  .trippilot-page .sketch-card img {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -3478,7 +3694,9 @@ font-style: var(--body-large-semibold-font-style);
   .qr-track-page .rc-quote, .qr-track-page .rc-learn,
   .qr-track-page .rc-valid, .qr-track-page .rc-proud,
   .busybee-page .rc-quote, .busybee-page .rc-learn,
-  .busybee-page .rc-valid, .busybee-page .rc-proud {
+  .busybee-page .rc-valid, .busybee-page .rc-proud,
+  .trippilot-page .rc-quote, .trippilot-page .rc-learn,
+  .trippilot-page .rc-valid, .trippilot-page .rc-proud{
     border-right: none;
     border-bottom: 1px solid var(--neutral-80);
     width: 100%;
@@ -3487,7 +3705,8 @@ font-style: var(--body-large-semibold-font-style);
 
   .rc-proud,
   .qr-track-page .rc-proud,
-  .busybee-page .rc-proud {
+  .busybee-page .rc-proud,
+  .trippilot-page .rc-proud {
     border-bottom: none;
   }
 
