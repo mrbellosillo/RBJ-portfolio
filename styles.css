@@ -140,6 +140,10 @@ ol, ul {
   background-color: var(--casestudytrippilot); /* TripPilot Blue */
 }
 
+.hopservices-page .nav-link::after {
+  background-color: var(--casestudyhop-services); /* HOP Services Green*/
+}
+
 .aura-finance-page .nav-link::after {
   background-color: var(--casestudyaura); /* Aura Green */
 }
@@ -163,6 +167,10 @@ ol, ul {
 
 .trippilot-page .nav-link:hover {
   color: var(--casestudytrippilot); /* TripPilot Blue */
+}
+
+.hopservices-page .nav-link:hover {
+  color: var(--casestudyhop-services); /* HOP Services Green */
 }
 
 .aura-finance-page .nav-link:hover {
@@ -221,6 +229,10 @@ ol, ul {
 
 .trippilot-page .main-content {
   background-color: #EBF1FC; /* Light blue background for TripPilot case study */
+}
+
+.hopservices-page .main-content {
+  background-color: #EBF6F7; /* Light green background for HOP Services case study */
 }
 
 .aura-finance-page .main-content {
@@ -686,6 +698,10 @@ ol, ul {
   background-color: var(--casestudytrippilot); /* TripPilot Blue */
 }
 
+.hopservices-page .btn-filled {
+  background-color: var(--casestudyhop-services); /* HOP Services Green */
+}
+
 .aura-finance-page .btn-filled {
   background-color: var(--casestudyaura); /* Aura Green */
 }
@@ -712,6 +728,10 @@ ol, ul {
 
 .trippilot-page .btn-filled:hover {
   background-color: #0052cc; /* Darker TripPilot Blue on hover */
+}
+
+.hopservices-page .btn-filled:hover {
+  background-color: #004d5c; /* Darker HOP Services Green on hover */
 }
 
 .qr-track-page .btn-filled:hover {
@@ -741,6 +761,11 @@ ol, ul {
   color: var(--casestudytrippilot);
 }
 
+.hopservices-page .btn-outline-sm {
+  border-color: var(--casestudyhop-services);
+  color: var(--casestudyhop-services);
+}
+
 .aura-finance-page .btn-outline-sm {
   border-color: var(--casestudyaura);
   color: var(--casestudyaura);
@@ -768,6 +793,11 @@ ol, ul {
 
 .trippilot-page .btn-outline-sm:hover {
   background-color: var(--casestudytrippilot);
+  color: var(--neutralmain-bg);
+}
+
+.hopservices-page .btn-outline-sm:hover {
+  background-color: var(--casestudyhop-services);
   color: var(--neutralmain-bg);
 }
 
@@ -818,6 +848,10 @@ ol, ul {
 
 .trippilot-page .social-row a:hover {
   color: var(--casestudytrippilot);
+}
+
+.hopservices-page .social-row a:hover {
+  color: var(--casestudyhop-services);
 }
 
 .aura-finance-page .social-row a:hover {
@@ -935,6 +969,10 @@ ol, ul {
   background-color: #0052cc; /* Darker TripPilot Blue on hover */
 }
 
+.hopservices-page .fab-back-to-top:hover {
+  background-color: #004d5c; /* Darker HOP Services Green on hover */
+}
+
 .qr-track-page .fab-back-to-top:hover {
   background-color: #003772; /* Darker QR Track Blue on hover */
 }
@@ -1014,6 +1052,10 @@ ol, ul {
   color: var(--casestudytrippilot);
 }
 
+.hopservices-page .sub-nav-title {
+  color: var(--casestudyhop-services);
+}
+
 .qr-track-page .sub-nav-title {
   color: var(--casestudyqr-track);
 }
@@ -1057,9 +1099,15 @@ ol, ul {
   color: var(--casestudytrippilot); /* TripPilot Blue */
 }
 
+.hopservices-page .sub-nav-links a:hover {
+  color: var(--casestudyhop-services); /* HOP Services Green */
+}
+
 .af-accent { color: #106a29; }
 
 .trippilot-page .af-accent { color: var(--casestudytrippilot); }
+
+.hopservices-page .af-accent { color: var(--casestudyhop-services); }
 
 .qr-track-page .af-accent { color: var(--casestudyqr-track); }
 
@@ -1120,6 +1168,10 @@ ol, ul {
   color: var(--casestudytrippilot);
 }
 
+.hopservices-page .af-title {
+  color: var(--casestudyhop-services);
+}
+
 .af-desc {
   font-family: var(--body-large-font-family);
   font-size: var(--body-large-font-size);
@@ -1143,6 +1195,10 @@ ol, ul {
 
 .trippilot-page .af-photo-badge {
   left: 289.5px;
+}
+
+.hopservices-page .af-photo-badge {
+  left: 414.5px;
 }
 
 .qr-track-page .af-photo-badge {
@@ -1176,6 +1232,13 @@ ol, ul {
   object-fit: contain;
   object-position: center;
   transform: scale(1.2);
+}
+
+.hopservices-page .af-photo-badge img {
+  top: -100%;
+  width: 100%;
+  height: 300%;
+  object-fit: contain;
 }
 
 .qr-track-page .af-photo-badge img {
@@ -1224,6 +1287,11 @@ ol, ul {
   color: var(--casestudytrippilot);
 }
 
+.hopservices-page .cta-btn-green {
+  border-color: var(--casestudyhop-services);
+  color: var(--casestudyhop-services);
+}
+
 .cta-btn-green:hover {
   background-color: #106a29;
   color: white;
@@ -1241,6 +1309,11 @@ ol, ul {
 
 .trippilot-page .cta-btn-green:hover {
   background-color: var(--casestudytrippilot);
+  color: white;
+}
+
+.hopservices-page .cta-btn-green:hover {
+  background-color: var(--casestudyhop-services);
   color: white;
 }
 
@@ -1294,6 +1367,10 @@ ol, ul {
   color: var(--casestudytrippilot);
 }
 
+.hopservices-page .af-xw-letter {
+  color: var(--casestudyhop-services);
+}
+
 .af-xw-letter {
   opacity: 0;
   transform: scale(0.3);
@@ -1339,6 +1416,10 @@ ol, ul {
 
 .trippilot-page .visual-interface-panel {
   background-color: #76A2FF;
+}
+
+.hopservices-page .visual-interface-panel {
+  background-color: #79A19E;
 }
 
 .vi-header {
@@ -1533,6 +1614,10 @@ ol, ul {
   color: var(--casestudytrippilot);
 }
 
+.hopservices-page .ps-col-title {
+  color: var(--casestudyhop-services);
+}
+
 .ps-col-text {
   font-family: var(--body-large-font-family);
   font-size: var(--body-large-font-size);
@@ -1541,7 +1626,7 @@ ol, ul {
 }
 
 .ps-col-text strong {
-  font-weight: 600;
+  font-weight: 600;;
 }
 
 /* ---- Methodology (AI-Augmented Workflow) ---- */
@@ -1618,12 +1703,23 @@ ol, ul {
   color: var(--casestudytrippilot);
 }
 
+.hopservices-page .process-step-title {
+  color: var(--casestudyhop-services);
+}
+
 .process-tags {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.process-tags-hop {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
 
 .process-tag {
   background-color: var(--brandprimary);
@@ -1672,6 +1768,15 @@ ol, ul {
   color: var(--neutral-10);
 }
 
+.blueprint-subheading {
+  font-family: var(--h2-font-family);
+  font-weight: var(--h2-font-weight);
+  font-size: var(--h2-font-size);
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  color: var(--neutral-10);
+}
+
 /* Blueprint sub-sections */
 .blueprint-sections {
   display: flex;
@@ -1700,6 +1805,10 @@ ol, ul {
 
 .trippilot-page .af-subsection {
   border-bottom: 1px solid var(--casestudytrippilot);
+}
+
+.hopservices-page .af-subsection {
+  border-bottom: 1px solid var(--casestudyhop-services);
 }
 
 .af-subsection:last-child {
@@ -1737,6 +1846,10 @@ ol, ul {
 
 .trippilot-page .af-subsection-name {
   color: var(--casestudytrippilot);
+}
+
+.hopservices-page .af-subsection-name {
+  color: var(--casestudyhop-services);
 }
 
 .af-subsection-desc {
@@ -1833,6 +1946,19 @@ ol, ul {
   align-items: center;
 }
 
+.initial-design-panel {
+  background-color: var(--neutralmain-bg);
+  border-radius: 8px;
+  border: 1px solid var(--neutral-40);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+  padding: 48px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+
 .qr-track-page .wireframe-panel {
   padding: 48px 94px;
 }
@@ -1918,10 +2044,68 @@ ol, ul {
   justify-content: center;
 }
 
+.midfi-row-wireframe {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.midfi-row-apply-driver {
+  display: flex;
+  gap: 24px;
+  align-items: top;
+  width: 100%;
+  justify-content: center;
+}
+
+.midfi-row-response {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
 .midfi-phone,
-.midfi-phone-long {
+.midfi-phone-long, .midfi-phone-card, .midfi-phone-detail {
   width: 166px;
   height: 361px;
+  border-radius: 9px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.card-layout {
+  width: 382px;
+  height: 197px;
+  border-radius: 9px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.web-driver {
+  width: 382px;
+  height: 1005px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+.mobile-driver {
+  width: 166px;
+  height: 1841px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+.detail-layout {
+  width: 166px;
+  height: 441px;
   border-radius: 9px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   overflow: hidden;
@@ -1932,6 +2116,22 @@ ol, ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
+}
+
+.midfi-phone-detail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  object-position: bottom;
+}
+
+.midfi-phone-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
   display: block;
 }
 
@@ -2373,6 +2573,11 @@ font-style: var(--body-large-semibold-font-style);
 .trippilot-page .rc-valid {width: 50%; min-height: 288px;}
 .trippilot-page .rc-proud {width: 50%; min-height: 288px;}
 
+.hopservices-page .rc-quote {width: 50%; min-height: 448px;}
+.hopservices-page .rc-learn {width: 50%; min-height: 448px;}
+.hopservices-page .rc-valid {width: 50%; min-height: 320px;}
+.hopservices-page .rc-proud {width: 50%; min-height: 320px;}
+
 .reflection-quote {
   font-family: var(--h2-font-family);
   font-weight: 700;
@@ -2402,6 +2607,10 @@ font-style: var(--body-large-semibold-font-style);
 
 .trippilot-page .reflection-cell-title {
   color: var(--casestudytrippilot);
+}
+
+.hopservices-page .reflection-cell-title {
+  color: var(--casestudyhop-services);
 }
 
 .reflection-cell-text {
@@ -2443,6 +2652,10 @@ font-style: var(--body-large-semibold-font-style);
 }
 
 .trippilot-page .next-case-study-banner {
+  background-color: #8DB0B3;
+}
+
+.hopservices-page .next-case-study-banner {
   background-color: #96BC9F;
 }
 
@@ -2492,7 +2705,8 @@ font-style: var(--body-large-semibold-font-style);
   display: block;
 }
 
-.next-cs-image {
+.next-cs-image,
+.trippilot-page .next-cs-image {
   width: 329px;
   height: 204px;
   object-fit: cover;
@@ -2511,7 +2725,7 @@ font-style: var(--body-large-semibold-font-style);
 }
 
 .busybee-page .next-cs-image,
-.trippilot-page .next-cs-image {
+.hopservices-page .next-cs-image {
   width: 102px;
   height: 206px;
 }
@@ -3147,7 +3361,8 @@ font-style: var(--body-large-semibold-font-style);
   .af-photo-badge,
   .qr-track-page .af-photo-badge,
   .busybee-page .af-photo-badge,
-  .trippilot-page .af-photo-badge {
+  .trippilot-page .af-photo-badge
+  .hopservices-page .af-photo-badge {
     position: relative;
     left: 0;
     top: 0;
@@ -3193,7 +3408,8 @@ font-style: var(--body-large-semibold-font-style);
   .aura-finance-page .hint,
   .qr-track-page .hint,
   .busybee-page .hint,
-  .trippilot-page .hint {
+  .trippilot-page .hint,
+  .hopservices-page .hint {
     margin-top: -80px;
   }
 
@@ -3477,7 +3693,8 @@ font-style: var(--body-large-semibold-font-style);
   .sketch-card-small img,
   .qr-track-page .sketch-card img,
   .busybee-page .sketch-card img,
-  .trippilot-page .sketch-card img {
+  .trippilot-page .sketch-card img
+  .hopservices-page .sketch-card img {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -3696,7 +3913,9 @@ font-style: var(--body-large-semibold-font-style);
   .busybee-page .rc-quote, .busybee-page .rc-learn,
   .busybee-page .rc-valid, .busybee-page .rc-proud,
   .trippilot-page .rc-quote, .trippilot-page .rc-learn,
-  .trippilot-page .rc-valid, .trippilot-page .rc-proud{
+  .trippilot-page .rc-valid, .trippilot-page .rc-proud,
+  .hopservices-page .rc-quote, .hopservices-page .rc-learn,
+  .hopservices-page .rc-valid, .hopservices-page .rc-proud{
     border-right: none;
     border-bottom: 1px solid var(--neutral-80);
     width: 100%;
@@ -3706,7 +3925,8 @@ font-style: var(--body-large-semibold-font-style);
   .rc-proud,
   .qr-track-page .rc-proud,
   .busybee-page .rc-proud,
-  .trippilot-page .rc-proud {
+  .trippilot-page .rc-proud,
+  .hopservices-page .rc-proud {
     border-bottom: none;
   }
 
