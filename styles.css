@@ -3654,6 +3654,12 @@ font-style: var(--body-large-semibold-font-style);
     object-fit: contain;
   }
 
+   .trippilot-page .af-flow-image-card img {
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: contain;
+  }
+
   .components-stats-img {
     gap: 24px;
   }
