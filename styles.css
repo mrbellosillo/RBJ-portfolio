@@ -3894,10 +3894,13 @@ font-style: var(--body-large-semibold-font-style);
   /* ─────────────────────────────────────────────
      REFLECTION GRID
   ───────────────────────────────────────────── */
-  .reflection-section {
+  .reflection-section,
+  .validation-section {
     width: 100%;
     max-width: 100%;
+    align-self: stretch;
     gap: 24px;
+    box-sizing: border-box;
   }
 
   .reflection-grid {
@@ -3952,6 +3955,54 @@ font-style: var(--body-large-semibold-font-style);
     line-height: 22px;
   }
 
+  .validation-section .blueprint-title-block {
+    margin-bottom: 8px !important;
+  }
+
+  .validation-section .blueprint-heading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .validation-section .testimonials {
+    width: 100%;
+    gap: 40px;
+  }
+
+  .validation-section .testimonial {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .validation-section .quote {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+  }
+
+  .validation-section .client {
+    gap: 12px;
+  }
+
+  .validation-section .client-avatar {
+    width: 56px;
+    height: 56px;
+  }
+
+  .validation-section .client-info {
+    min-width: 0;
+  }
+
+  .validation-section .client-name {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .validation-section .client-role {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
   /* ─────────────────────────────────────────────
      NEXT CASE STUDY BANNER
   ───────────────────────────────────────────── */
@@ -4002,6 +4053,22 @@ font-style: var(--body-large-semibold-font-style);
   .busybee-page .next-cs-image {
     width: 100%;
     max-width: 240px;
+    height: auto;
+    margin: 0 auto;
+    opacity: 0.85;
+  }
+
+  .trippilot-page .next-cs-image {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    margin: 0 auto;
+    opacity: 0.85;
+  }
+
+  .trippilot-page .next-cs-image-mobile {
+    width: 100%;
+    max-width: 100px;
     height: auto;
     margin: 0 auto;
     opacity: 0.85;
