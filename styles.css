@@ -144,6 +144,10 @@ ol, ul {
   background-color: var(--casestudyhop-services); /* HOP Services Green*/
 }
 
+.bitesbysweden-page .nav-link::after {
+  background-color: var(--casestudybitesbysweden); /* Bites by Sweden Blue */
+}
+
 .aura-finance-page .nav-link::after {
   background-color: var(--casestudyaura); /* Aura Green */
 }
@@ -171,6 +175,10 @@ ol, ul {
 
 .hopservices-page .nav-link:hover {
   color: var(--casestudyhop-services); /* HOP Services Green */
+}
+
+.bitesbysweden-page .nav-link:hover {
+  color: var(--casestudybitesbysweden); /* Bites by Sweden Blue */
 }
 
 .aura-finance-page .nav-link:hover {
@@ -702,6 +710,10 @@ ol, ul {
   background-color: var(--casestudyhop-services); /* HOP Services Green */
 }
 
+.bitesbysweden-page .btn-filled {
+  background-color: var(--casestudybitesbysweden); /* Bites by Sweden Blue */
+}
+
 .aura-finance-page .btn-filled {
   background-color: var(--casestudyaura); /* Aura Green */
 }
@@ -766,6 +778,11 @@ ol, ul {
   color: var(--casestudyhop-services);
 }
 
+.bitesbysweden-page .btn-outline-sm {
+  border-color: var(--casestudybitesbysweden);
+  color: var(--casestudybitesbysweden);
+}
+
 .aura-finance-page .btn-outline-sm {
   border-color: var(--casestudyaura);
   color: var(--casestudyaura);
@@ -798,6 +815,11 @@ ol, ul {
 
 .hopservices-page .btn-outline-sm:hover {
   background-color: var(--casestudyhop-services);
+  color: var(--neutralmain-bg);
+}
+
+.bitesbysweden-page .btn-outline-sm:hover {
+  background-color: var(--casestudybitesbysweden);
   color: var(--neutralmain-bg);
 }
 
@@ -852,6 +874,10 @@ ol, ul {
 
 .hopservices-page .social-row a:hover {
   color: var(--casestudyhop-services);
+}
+
+.bitesbysweden-page .social-row a:hover {
+  color: var(--casestudybitesbysweden);
 }
 
 .aura-finance-page .social-row a:hover {
@@ -1056,6 +1082,10 @@ ol, ul {
   color: var(--casestudyhop-services);
 }
 
+.bitesbysweden-page .sub-nav-title {
+  color: var(--casestudybitesbysweden);
+}
+
 .qr-track-page .sub-nav-title {
   color: var(--casestudyqr-track);
 }
@@ -1103,11 +1133,17 @@ ol, ul {
   color: var(--casestudyhop-services); /* HOP Services Green */
 }
 
+.bitesbysweden-page .sub-nav-links a:hover {
+  color: var(--casestudybitesbysweden); /* Bites by Sweden Blue */
+}
+
 .af-accent { color: #106a29; }
 
 .trippilot-page .af-accent { color: var(--casestudytrippilot); }
 
 .hopservices-page .af-accent { color: var(--casestudyhop-services); }
+
+.bitesbysweden-page .af-accent { color: var(--casestudybitesbysweden); }
 
 .qr-track-page .af-accent { color: var(--casestudyqr-track); }
 
@@ -1172,6 +1208,10 @@ ol, ul {
   color: var(--casestudyhop-services);
 }
 
+.bitesbysweden-page .af-title {
+  color: var(--casestudybitesbysweden);
+}
+
 .af-desc {
   font-family: var(--body-large-font-family);
   font-size: var(--body-large-font-size);
@@ -1199,6 +1239,10 @@ ol, ul {
 
 .hopservices-page .af-photo-badge {
   left: 414.5px;
+}
+
+.bitesbysweden-page .af-photo-badge {
+  left: 470.5px;
 }
 
 .qr-track-page .af-photo-badge {
@@ -1235,6 +1279,13 @@ ol, ul {
 }
 
 .hopservices-page .af-photo-badge img {
+  top: -100%;
+  width: 100%;
+  height: 300%;
+  object-fit: contain;
+}
+
+.bitesbysweden-page .af-photo-badge img {
   top: -100%;
   width: 100%;
   height: 300%;
@@ -1292,6 +1343,11 @@ ol, ul {
   color: var(--casestudyhop-services);
 }
 
+.bitesbysweden-page .cta-btn-green {
+  border-color: var(--casestudybitesbysweden);
+  color: var(--casestudybitesbysweden);
+}
+
 .cta-btn-green:hover {
   background-color: #106a29;
   color: white;
@@ -1314,6 +1370,11 @@ ol, ul {
 
 .hopservices-page .cta-btn-green:hover {
   background-color: var(--casestudyhop-services);
+  color: white;
+}
+
+.bitesbysweden-page .cta-btn-green:hover {
+  background-color: var(--casestudybitesbysweden);
   color: white;
 }
 
@@ -1371,6 +1432,10 @@ ol, ul {
   color: var(--casestudyhop-services);
 }
 
+.bitesbysweden-page .af-xw-letter {
+  color: var(--casestudybitesbysweden);
+}
+
 .af-xw-letter {
   opacity: 0;
   transform: scale(0.3);
@@ -1420,6 +1485,10 @@ ol, ul {
 
 .hopservices-page .visual-interface-panel {
   background-color: #79A19E;
+}
+
+.bitesbysweden-page .visual-interface-panel {
+  background-color: #8797B1;
 }
 
 .vi-header {
@@ -1479,12 +1548,20 @@ ol, ul {
   width: 100%;
 }
 
+.bitesbysweden-page .phone-row {
+  display: flex;
+  gap: 56px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .qr-track-page .phone-row {
   justify-content: center;
   flex-direction: column;
 }
 
-.busybee-page .desktop-row {
+.desktop-row {
   justify-content: center;
   flex-direction: column;
   display: flex;
@@ -1618,6 +1695,10 @@ ol, ul {
   color: var(--casestudyhop-services);
 }
 
+.bitesbysweden-page .ps-col-title {
+  color: var(--casestudybitesbysweden);
+}
+
 .ps-col-text {
   font-family: var(--body-large-font-family);
   font-size: var(--body-large-font-size);
@@ -1705,6 +1786,10 @@ ol, ul {
 
 .hopservices-page .process-step-title {
   color: var(--casestudyhop-services);
+}
+
+.bitesbysweden-page .process-step-title {
+  color: var(--casestudybitesbysweden);
 }
 
 .process-tags {
@@ -1811,6 +1896,10 @@ ol, ul {
   border-bottom: 1px solid var(--casestudyhop-services);
 }
 
+.bitesbysweden-page .af-subsection {
+  border-bottom: 1px solid var(--casestudybitesbysweden);
+}
+
 .af-subsection:last-child {
   border-bottom: none;
   padding-bottom: 0;
@@ -1823,6 +1912,15 @@ ol, ul {
   justify-content: space-between;
   width: 100%;
   min-height: 100px;
+}
+
+.af-subsection-header-pdp {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100px;
+  margin-top: -100px;
 }
 
 .af-subsection-name {
@@ -1850,6 +1948,10 @@ ol, ul {
 
 .hopservices-page .af-subsection-name {
   color: var(--casestudyhop-services);
+}
+
+.bitesbysweden-page .af-subsection-name {
+  color: var(--casestudybitesbysweden);
 }
 
 .af-subsection-desc {
@@ -2091,6 +2193,34 @@ ol, ul {
   width: 382px;
   height: 1005px;
   border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+.bitesbysweden-page .og-homepage {
+  width: 382px;
+  height: 1105px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+.bitesbysweden-page .og-pdp {
+  width: 382px;
+  height: 769px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+.bitesbysweden-page .new-homepage {
+  width: 382px;
+  height: auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+.bitesbysweden-page .new-pdp {
+  width: 382px;
+  height: 1100px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   overflow: hidden;
 }
@@ -2613,6 +2743,10 @@ font-style: var(--body-large-semibold-font-style);
   color: var(--casestudyhop-services);
 }
 
+.bitesbysweden-page .reflection-cell-title {
+  color: var(--casestudybitesbysweden);
+}
+
 .reflection-cell-text {
   font-family: var(--body-large-font-family);
   font-size: var(--body-large-font-size);
@@ -2644,7 +2778,7 @@ font-style: var(--body-large-semibold-font-style);
 }
 
 .qr-track-page .next-case-study-banner {
-  background-color: #B6AE94;
+  background-color: #9BA8BE;
 }
 
 .busybee-page .next-case-study-banner {
@@ -2656,7 +2790,7 @@ font-style: var(--body-large-semibold-font-style);
 }
 
 .hopservices-page .next-case-study-banner {
-  background-color: #96BC9F;
+  background-color: #8eaece;
 }
 
 .next-cs-content {
@@ -2725,7 +2859,7 @@ font-style: var(--body-large-semibold-font-style);
 }
 
 .busybee-page .next-cs-image,
-.hopservices-page .next-cs-image {
+.bitesbysweden-page .next-cs-image {
   width: 102px;
   height: 206px;
 }
@@ -3361,8 +3495,9 @@ font-style: var(--body-large-semibold-font-style);
   .af-photo-badge,
   .qr-track-page .af-photo-badge,
   .busybee-page .af-photo-badge,
-  .trippilot-page .af-photo-badge
-  .hopservices-page .af-photo-badge {
+  .trippilot-page .af-photo-badge,
+  .hopservices-page .af-photo-badge,
+  .bitesbysweden-page .af-photo-badge {
     position: relative;
     left: 0;
     top: 0;
@@ -3402,14 +3537,34 @@ font-style: var(--body-large-semibold-font-style);
     max-width: 100%;
     flex-shrink: 1;
     align-items: center;
-    margin-top: 12px;
+    margin-top: -80px;
+  }
+
+  .qr-track-page .af-right-side {
+    margin-top: 0px;
+  }
+
+  .bitesbysweden-page .af-right-side {
+    margin-top: 0px;
+  }
+
+  .trippilot-page .af-right-side,
+  .hopservices-page .af-right-side {
+    margin-top: 24px;
   }
 
   .aura-finance-page .hint,
-  .qr-track-page .hint,
-  .busybee-page .hint,
-  .trippilot-page .hint,
+  .busybee-page .hint {
+    margin-top: 12px;
+  }
+
   .hopservices-page .hint {
+    margin-top: -40px;
+  }
+
+  .bitesbysweden-page .hint,
+  .qr-track-page .hint,
+  .trippilot-page .hint {
     margin-top: -80px;
   }
 
@@ -3417,6 +3572,10 @@ font-style: var(--body-large-semibold-font-style);
     transform: scale(0.55);
     transform-origin: top left;
     max-width: 100%;
+  }
+
+  .hopservices-page .af-crossword {
+    transform: scale(0.48);
   }
 
   .af-xw-letter {
@@ -3629,6 +3788,15 @@ font-style: var(--body-large-semibold-font-style);
     width: 100%;
   }
 
+  .af-subsection-header-pdp {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    min-height: auto;
+    width: 100%;
+  }
+
   .af-subsection-name {
     font-size: 20px;
     line-height: 28px;
@@ -3641,6 +3809,89 @@ font-style: var(--body-large-semibold-font-style);
     font-size: 15px;
     line-height: 22px;
     flex-shrink: 1;
+  }
+
+  .bitesbysweden-page .af-subsection-header,
+  .bitesbysweden-page .af-subsection-header-pdp {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    min-height: auto;
+    width: 100%;
+    margin-top: 0; /* Clears desktop negative margin overlapping */
+  }
+
+  .bitesbysweden-page .af-subsection-name {
+    font-size: 20px;
+    line-height: 28px;
+    white-space: normal;
+  }
+
+  .bitesbysweden-page .af-subsection-desc {
+    width: 100%;
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+    flex-shrink: 1;
+  }
+
+  .bitesbysweden-page .af-subsection-header + ul,
+  .bitesbysweden-page .af-subsection-header-pdp + ul {
+    width: 100% !important;        /* Breaks the fixed 531px layout width */
+    max-width: 100% !important;
+    align-self: flex-start !important; /* Forces lists back to the left alignment */
+    margin-top: 12px !important;    /* Replaces negative margins with clean spacing */
+    padding-left: 20px !important;  /* Clean list indentation for small screens */
+    box-sizing: border-box !important;
+  }
+
+  .bitesbysweden-page .af-subsection-header + ul li,
+  .bitesbysweden-page .af-subsection-header-pdp + ul li {
+    font-size: 15px !important;
+    line-height: 22px !important;
+  }
+
+  .bitesbysweden-page .initial-design-panel {
+    padding: 24px 16px;
+    gap: 24px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 32px; /* Adds clear separation from text blocks above */
+  }
+
+  .bitesbysweden-page .midfi-row-apply-driver {
+    flex-direction: column;
+    align-items: center; /* Stacks and centers the mockups vertically */
+    gap: 32px;
+    width: 100%;
+  }
+
+  .bitesbysweden-page .og-homepage {
+    width: 100%;
+    max-width: 382px;
+    height: auto;
+    aspect-ratio: 382 / 1105; /* Locks aspect ratio for the home page mockup */
+  }
+
+  .bitesbysweden-page .og-pdp {
+    width: 100%;
+    max-width: 382px;
+    height: auto;
+    aspect-ratio: 382 / 769; /* Locks aspect ratio for the PDP page mockup */
+  }
+
+  .bitesbysweden-page .new-homepage {
+    width: 100%;
+    max-width: 382px; /* Keeps its original clean size on larger tablet viewports */
+    height: auto;     /* Allows natural vertical scaling */
+  }
+
+  .bitesbysweden-page .new-pdp {
+    width: 100%;
+    max-width: 382px;
+    height: auto;     /* Overrides the rigid desktop height of 1100px */
+    aspect-ratio: 382 / 1100; /* Locks down the aspect ratio so it scales perfectly without distortion */
   }
 
   /* ─────────────────────────────────────────────
@@ -3673,6 +3924,81 @@ font-style: var(--body-large-semibold-font-style);
     gap: 24px;
     width: 100%;
     box-sizing: border-box;
+  }
+
+  .trippilot-page .midfi-row {
+    display: flex;
+    flex-direction: row; /* Overrides column direction */
+    flex-wrap: wrap;     /* Crucial: lets the 3rd, 4th, and 5th cards drop to new rows */
+    gap: 16px;           /* Standardized mobile spacing */
+    width: 100%;
+    justify-content: center;
+  }
+
+  .trippilot-page .midfi-phone,
+  .trippilot-page .midfi-phone-long, 
+  .trippilot-page .midfi-phone-card, 
+  .trippilot-page .midfi-phone-detail {
+    width: calc(50% - 8px);   /* Takes exactly half the screen width minus the gap */
+    max-width: 180px;         /* Prevents them from getting too bloated on tablets */
+    height: auto;             /* Removes fixed desktop height */
+    aspect-ratio: 166 / 361;   /* Keeps the original crisp phone layout boundaries */
+    flex-shrink: 1;
+  }
+
+  .midfi-row-wireframe {
+    flex-direction: column; /* Stack the wireframes vertically */
+    gap: 24px;
+    width: 100%;
+  }
+
+  .card-layout, 
+  .detail-layout {
+    width: 100%;      /* Allow them to shrink on smaller screens */
+    max-width: 382px; /* Prevent card from stretching larger than original desktop width */
+    height: auto;     /* Let height scale naturally with the image aspect ratio */
+    flex-shrink: 1;
+  }
+
+  .detail-layout {
+    max-width: 166px; /* Prevent detail screen from stretching wider than original desktop width */
+  }
+
+  /* Ensure the images inside fill the responsive containers */
+  .card-layout img,
+  .detail-layout img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .midfi-row-apply-driver {
+    flex-direction: column;
+    align-items: center; /* Centers the wireframes horizontally */
+    gap: 32px;
+    width: 100%;
+  }
+
+  .web-driver {
+    width: 100%;
+    max-width: 382px;
+    height: auto;
+    aspect-ratio: 382 / 1005; /* Locks in the original desktop aspect proportions */
+  }
+
+  .mobile-driver {
+    width: 100%;
+    max-width: 166px;
+    height: auto;
+    aspect-ratio: 166 / 1841; /* Locks in the long mobile layout proportions */
+  }
+
+  .web-driver img,
+  .mobile-driver img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
 
   .wireframes {
@@ -3719,11 +4045,29 @@ font-style: var(--body-large-semibold-font-style);
     width: 100%;
   }
 
-  .midfi-phone {
+  .initial-design-panel {
+    padding: 24px 16px;
+    gap: 24px;
     width: 100%;
-    max-width: 180px;
+    box-sizing: border-box;
+  }
+
+  .midfi-row-response {
+    flex-wrap: wrap; 
+    gap: 16px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .midfi-phone,
+  .midfi-phone-long, 
+  .midfi-phone-card, 
+  .midfi-phone-detail {
+    width: calc(50% - 8px); /* Let them sit side-by-side (2 per row) */
+    max-width: 180px;       /* Keeps them looking like crisp, compact UI screens */
     height: auto;
-    aspect-ratio: 166 / 361;
+    aspect-ratio: 166 / 361; /* Retains your exact original aspect proportions */
+    flex-shrink: 1;         /* Allows shrinking if the screen gets super narrow */
   }
 
   .midfi-desktop {
